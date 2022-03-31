@@ -1,0 +1,12 @@
+.searchInput {
+  background-color: #202327;
+  color: aliceblue;
+  width: 100%;
+  font-size: large;
+
+  border-radius: 50px;
+}
+
+.input:focus {
+  outline-color: #1d9bf0 !important;
+}
