@@ -6,8 +6,9 @@ const Feed = (props) => {
         <img className='w-16 rounded-full' src={props.dp}></img>
         <div className='flex flex-col px-5'>
           <h1 className='text-white'>{`Muddasar`}</h1>
+          <h2 className='text-white'>{`20-05-22`}</h2>
           <p className='text-white'>{props.tweet}</p>
-        </div>
+        </div>{' '}
       </div>
     </>
   );
